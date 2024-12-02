@@ -1,0 +1,217 @@
+/* Resetando algumas propriedades básicas */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0f7fa; /* Fundo suave */
+    color: #333;
+}
+
+/* Estilo do título principal */
+.title {
+    text-align: center;
+    margin-top: -15px;
+    font-size: 2.5em;
+    color: #2c6e49; /* Verde escuro */
+}
+
+/* Container geral dos animais */
+.animal-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+/* Estilo de cada card de animal */
+.animal {
+    background-color: #a5d6a7; /* Verde claro */
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease;
+}
+
+.animal:hover {
+    transform: scale(1.05); /* Aumenta o tamanho ao passar o mouse */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Sombra mais forte */
+}
+
+/* Estilo da imagem dentro de cada card */
+.image-container {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.animal:hover .image-container img {
+    transform: scale(1.1); /* Aumenta a imagem quando passa o mouse */
+}
+
+/* Estilo do título de cada animal */
+.animal h2 {
+    font-size: 1.8em;
+    text-align: center;
+    color: #2c6e49; /* Verde escuro */
+    margin: 15px 0;
+}
+
+/* Estilo do parágrafo de descrição */
+.animal p {
+    font-size: 1em;
+    text-align: center;
+    padding: 0 10px 15px;
+    color: #4b8e6e; /* Verde suave */
+}
+
+/* Efeito de hover nos links de navegação */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color: #388e3c; /* Verde mais intenso */
+}
+
+/* Responsividade: ajusta o grid para telas menores */
+@media (max-width: 1024px) {
+    .animal-container {
+        grid-template-columns: repeat(3, 1fr); /* 3 colunas */
+    }
+}
+
+@media (max-width: 768px) {
+    .animal-container {
+        grid-template-columns: repeat(2, 1fr); /* 2 colunas */
+    }
+}
+
+@media (max-width: 480px) {
+    .animal-container {
+        grid-template-columns: 1fr; /* 1 coluna */
+    }
+}
+
+
+.interactive-explorer {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.interactive-explorer h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.explore-options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    position: fixed;
+    margin-top: -100px;
+    margin-left: 18%;
+}
+
+.explore-card {
+    display: block;
+    text-decoration: none;
+    color: #73c30a;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+    width: 150px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(15, 88, 3, 0.552);
+}
+
+.explore-card:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    border-color: #4CAF50;
+}
+
+.explore-card img {
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+    border-bottom: 2px solid #4CAF50;
+}
+
+.explore-card span {
+    display: block;
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: #f9f9f9;
+    color: #26b00a;
+    text-transform: uppercase;
+}
+
+.img-logo{
+    width: 400px;
+    height: 350px;
+    margin-top: -8%;
+}
+
+.caixa{
+    position: absolute;
+}
+
+.caixa2 {
+    padding: 0%;
+    width: 2000px;
+    height: 220px;
+    background-color: #2a6908cf;
+    opacity: 0.5;
+    position: fixed;
+    margin-top: -30px;
+
+  }
+
+.title2{
+    position: fixed;
+    margin-left: 50%;
+}
+
+.slogan{
+    margin-left: 37%;
+    position: fixed;
+    margin-top: -140px;
+}
+
+.main-title{
+    color: #26b00a;
+    margin-left: 45%;
+    margin-top: -200px;
+    position: fixed;
+}
+
+footer {
+    background-color: #4caf50;
+    color: white;
+    text-align: center;
+    padding: 15px 10px;
+    font-size: 0.9em;
+    position: relative;  
+    width: 100%;
+    bottom: 0;  
+}

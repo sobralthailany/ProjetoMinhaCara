@@ -1,0 +1,182 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    margin: 0%;
+    padding: 0%;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #003300, #519c10);
+}
+
+h1{
+    font-size: 80px;
+    text-align: left;
+    font-family: 'Sedan SC';
+    font-weight: bolder;
+    color: #54e528;
+    position: fixed;
+}
+
+.highligth{
+    left: 565px;
+    right: 350px;
+    margin-top: 165px;
+    color: #F8ECC5;
+    font-family: 'Sedan SC';
+    color: #FFFFFF;
+    padding: 0%;
+    position: fixed;
+}
+
+.img-logo{
+    padding: 1%;
+    margin: 0%;
+    width: 400px;
+    height: 350px;
+    margin-top: -30%;
+}
+
+.caixa{
+    position: absolute;
+}
+
+.caixa2 {
+    padding: 0%;
+    width: 2000px;
+    height: 120px;
+    background-color: #2a6908cf;
+    opacity: 0.5;
+    position: fixed;
+    position: fixed;
+  }
+
+.texto1 {
+    left: 500px;
+    top: 30px; 
+    color: #F8F2DC;
+    font-family: 'Sedan SC';
+    font-size: 100px;
+}
+
+div.gallery {
+    margin: 2%;
+    padding: 1%;
+    float: left;
+    width: 280px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    margin-top: 25%;
+    position: relative;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+    background-color: #F8ECC5;
+  }
+
+.titulo {
+    font-size: 30px;
+    font-family: 'Sedan SC';
+    left: 100px;
+    top: 280px; 
+    color: #F8ECC5;
+    right: 20%;
+}
+
+.titulo2 {
+    font-size: 30px;
+    font-family: 'Sedan SC';
+    left: 470px;
+    top: 280px; 
+    color: #F8ECC5;
+    right: 20%;
+}
+
+.titulo3 {
+    font-size: 30px;
+    font-family: 'Sedan SC';
+    left: 820px;
+    top: 280px; 
+    color: #F8ECC5;
+    right: 20%;
+}
+
+.titulo4 {
+    font-size: 30px;
+    font-family: 'Sedan SC';
+    left: 1100px;
+    top: 280px; 
+    color: #F8ECC5;
+    right: 20%;
+}
+
+.pesquisa {
+    background-color: #FFFFFF;
+}
+
+ .explore-options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    position: fixed;
+    margin-left: 20%;
+}
+
+ .explore-card {
+    display: block;
+    text-decoration: none;
+    color: #73c30a;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+    width: 150px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(15, 88, 3, 0.552);
+    margin-top: 41px;
+} 
+
+.explore-card img {
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+    border-bottom: 2px solid #4CAF50;
+    position: relative;
+} 
+
+.explore-card span {
+    display: block;
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: #f9f9f9;
+    color: #26b00a;
+    text-transform: uppercase;
+}
+
+.explore-card:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    border-color: #4CAF50;
+} 
+
+footer {
+    color:#f9f9f9 ;
+    height: 8%;
+    text-align: center;
+
+}
