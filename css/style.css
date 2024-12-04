@@ -8,7 +8,7 @@ body{
     padding: 0%;
     height: 100vh;
     font-family: Arial, sans-serif;
-    background: linear-gradient(to bottom, #003300, #519c10);
+    background-color: #e0f7fa;
 }
 
 h1{
@@ -24,9 +24,8 @@ h1{
     left: 565px;
     right: 350px;
     margin-top: 165px;
-    color: #F8ECC5;
+    color: #2c6e49;
     font-family: 'Sedan SC';
-    color: #FFFFFF;
     padding: 0%;
     position: fixed;
 }
@@ -40,7 +39,7 @@ h1{
 }
 
 .caixa{
-    position: absolute;
+    position: fixed;
 }
 
 .caixa2 {
@@ -50,7 +49,7 @@ h1{
     background-color: #2a6908cf;
     opacity: 0.5;
     position: fixed;
-    position: fixed;
+
   }
 
 .texto1 {
@@ -62,18 +61,20 @@ h1{
 }
 
 div.gallery {
-    margin: 2%;
+    margin-left: 40px;
     padding: 1%;
     float: left;
     width: 280px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-align: center;
     margin-top: 25%;
+    margin-bottom: 50px;
     position: relative;
+    background-color: #a5d6a7;
   }
   
   div.gallery:hover {
-    border: 1px solid #777;
+    border: 1px solid #2c6e49;
   }
   
   div.gallery img {
@@ -84,7 +85,8 @@ div.gallery {
   div.desc {
     padding: 15px;
     text-align: center;
-    background-color: #F8ECC5;
+    background-color: #2c6e49;
+    color: #f9f9f9;
   }
 
 .titulo {
@@ -92,7 +94,7 @@ div.gallery {
     font-family: 'Sedan SC';
     left: 100px;
     top: 280px; 
-    color: #F8ECC5;
+    color: #2c6e49;
     right: 20%;
 }
 
@@ -101,7 +103,7 @@ div.gallery {
     font-family: 'Sedan SC';
     left: 470px;
     top: 280px; 
-    color: #F8ECC5;
+    color: #2c6e49;
     right: 20%;
 }
 
@@ -110,7 +112,7 @@ div.gallery {
     font-family: 'Sedan SC';
     left: 820px;
     top: 280px; 
-    color: #F8ECC5;
+    color: #2c6e49;
     right: 20%;
 }
 
@@ -119,7 +121,7 @@ div.gallery {
     font-family: 'Sedan SC';
     left: 1100px;
     top: 280px; 
-    color: #F8ECC5;
+    color: #2c6e49;
     right: 20%;
 }
 
@@ -176,7 +178,12 @@ div.gallery {
 
 footer {
     color:#f9f9f9 ;
-    height: 8%;
-    text-align: center;
+    background-color: #2c6e49;
+    position: absolute;
+    bottom:-100px;
+    width: 100%;
+}
 
+footer p{
+    text-align: center;
 }
