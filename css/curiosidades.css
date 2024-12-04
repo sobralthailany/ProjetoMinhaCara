@@ -1,4 +1,3 @@
-/* Estilos gerais */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -8,100 +7,53 @@ body {
     line-height: 1.6;
 }
 
-/* Cabeçalho */
 header {
-    background-color: #2b7a77;
+    background-color: #2a6908cf;
+    opacity: 0.9;
     color: white;
-    padding: 20px;
+    height: 250px;
+}
+.caixa2{
+    display: flex ;
+}
+
+.caixa2 img{
+    width: 400px;
+    height: 350px;
+    margin-top: -115px;
+}
+
+.wellcome{
     text-align: center;
+    margin-left: 180px;
 }
-
-.img-logo {
-    height: 80px;
-    margin-bottom: 10px;
-}
-
 .slogan {
     font-size: 18px;
     font-style: italic;
+    margin: 5px 0;
 }
-
-/* Título principal */
-.title {
-    text-align: center;
-    margin: 20px 0;
-    color: #2b7a77;
-}
-
-/* Container de curiosidades */
-.curiosity-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-    padding: 20px;
-}
-
-/* Cartão de curiosidade */
-.curiosity {
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    width: 300px;
-    padding: 15px;
-    text-align: center;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.curiosity:hover {
-    transform: scale(1.05);
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
-}
-
-/* Imagem */
-.image-container img {
-    width: 100%;
-    height: 200px;
-    border-radius: 10px;
-    object-fit: cover;
-}
-
-/* Texto */
-.curiosity h2 {
-    font-size: 20px;
-    color: #2b7a77;
-    margin: 15px 0 10px;
-}
-
-.curiosity p {
-    font-size: 16px;
-    color: #555;
-}
-
-/* Rodapé */
-footer {
-    text-align: center;
-    padding: 15px;
-    background-color: #2b7a77;
-    color: white;
-}
-
-/* .img-logo{
-    padding: 1%;
-    margin: 0%;
-    width: 400px;
-    height: 350px;
-} */
 
 
 .explore-options {
+    z-index: 1;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 15px;
     position: fixed;
     margin-top: -100px;
-    margin-left: 23%;
+    margin-left: 18%;
+    position: fixed;
+}
+
+.explore-card span {
+    display: block;
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: #f9f9f9;
+    color: #26b00a;
+    text-transform: uppercase;
 }
 
 .explore-card {
@@ -117,25 +69,61 @@ footer {
     box-shadow: 0 4px 8px rgba(15, 88, 3, 0.552);
 }
 
+
 .explore-card:hover {
-    transform: scale(1.1);
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
-    border-color: #4CAF50;
+    background-color: #1e8c08;
 }
 
-.explore-card img {
-    width: 100%;
-    height: 100px;
-    object-fit: cover;
-    border-bottom: 2px solid #4CAF50;
-}
-
-.explore-card span {
-    display: block;
-    padding: 10px;
-    font-size: 1rem;
-    font-weight: bold;
-    background-color: #f9f9f9;
+.title {
+    text-align: center;
     color: #26b00a;
-    text-transform: uppercase;
+    margin: 30px 0;
+}
+
+.curiosity-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.curiosity {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    text-align: center;
+    padding: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.curiosity:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.image-container img {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.curiosity h2 {
+    font-size: 18px;
+    color: #2c6e49;
+    margin: 15px 0 10px;
+}
+
+.curiosity p {
+    font-size: 16px;
+    color: #555;
+}
+
+footer {
+    background-color: #4caf50;
+    color: white;
+    text-align: center;
+    padding: 10px;
 }
